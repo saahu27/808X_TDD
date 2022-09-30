@@ -1,4 +1,7 @@
-Divyansh Agrawal - ENPM808X - Week2 - Accelerated C++ 3.5
+Divyansh Agrawal Sahruday Patti- ENPM808X - Week2 - Accelerated C++ 3.5
+
+Part 1:
+Driver (Divyansh Agarwal) Navigator (Sahruday Patti)
 
 Folder Structure:
  -readme.md
@@ -28,6 +31,4 @@ make
 # Run program: 
 ./app/shell-app
 
-00--------------------------------------------------------------00
-
-For any other queries, please contact me at dagrawa1@umd.edu. 
+00--------------------------------------------------------------00 
