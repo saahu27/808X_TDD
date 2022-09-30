@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/app/TDD.cpp
+../include/TDD.hpp
+/home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/include/TDD.hpp
+
+/home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/app/main.cpp
+../include/TDD.hpp
+/home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/include/TDD.hpp
+
+/home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/include/TDD.hpp
+iostream
+-
+
