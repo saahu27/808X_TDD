@@ -23,6 +23,7 @@ namespace controller {
     */
 class PID{
  public:
+   
 
     /**
      * @brief Getter for private variable errorPrevious_
@@ -33,10 +34,24 @@ class PID{
 
     /**
      * @brief Setter for private variable errorPrevious_
-     * @param error the present error at the end of loop is set as previous error
+     * @param Error the present error at the end of loop is set as previous error
      */
 
     void SetterErrorPrevious(double Error);
+
+    /**
+     * @brief Getter for private variable errorIntegral_
+     * @return errorIntegral_
+     */
+
+    double GetterErrorIntegral();
+
+    /**
+     * @brief Setter for private variable errorPrevious_
+     * @param Error the present error at the end of loop is added to integral error
+     */
+
+    void SetterErrorIntegral(double Error);
 
     /**
      * @brief method to compute to reach the setpoint
@@ -81,7 +96,13 @@ class PID{
      * @brief variable to update the previous error
      * @param errorPrevious_
      */
-    double errorPrevious_;  
+    double errorPrevious_;
+    /**
+     * @brief variable to update the integral error
+     * @param errorIntegral_
+     */
+    double errorIntegral_;  
+
     /**
      * @brief tolerance level chosen
      * @param tolerance_ private variable chosen and set
