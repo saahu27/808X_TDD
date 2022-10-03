@@ -4,8 +4,12 @@
 
 controller::PID PIDController;
 
-TEST(ControllerComputeTest, should_pass) {
+TEST(ControllerComputeTest_increasing, should_pass) {
   EXPECT_NEAR(PIDController.ComputeVel(10, 20), 20, 0.1);
+}
+
+TEST(ControllerComputeTes_decreasing, should_pass) {
+  EXPECT_NEAR(PIDController.ComputeVel(20, 10), 10, 0.1);
 }
 
 TEST(ControllerReturnDtTest, should_pass) {
