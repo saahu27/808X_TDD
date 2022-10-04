@@ -32,6 +32,10 @@ double controller::PID::RunController(double targetVel, double currentVel) {
         return currentVel;
 }
 
+double controller::PID::GetterTolerance() {
+        return tolerance_;
+}
+
 double controller::PID::returndt() {
         return dt_;
 }
