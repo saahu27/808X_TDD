@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/app/TDD.cpp" "/home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/app/CMakeFiles/shell-app.dir/TDD.cpp.o"
-  "/home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/app/main.cpp" "/home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/app/CMakeFiles/shell-app.dir/main.cpp.o"
+  "/home/divyansh/Documents/ENPM808X/TDD/808X_TDD/app/TDD.cpp" "/home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/app/CMakeFiles/shell-app.dir/TDD.cpp.o"
+  "/home/divyansh/Documents/ENPM808X/TDD/808X_TDD/app/main.cpp" "/home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/app/CMakeFiles/shell-app.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

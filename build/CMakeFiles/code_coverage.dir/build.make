@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master
+CMAKE_SOURCE_DIR = /home/divyansh/Documents/ENPM808X/TDD/808X_TDD
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build
+CMAKE_BINARY_DIR = /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build
 
 # Utility rule file for code_coverage.
 
@@ -54,14 +54,14 @@ CMAKE_BINARY_DIR = /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/
 include CMakeFiles/code_coverage.dir/progress.make
 
 CMakeFiles/code_coverage:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Resetting code coverage counters to zero."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Resetting code coverage counters to zero."
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Processing code coverage counters and generating report."
 	/usr/bin/lcov --directory . --zerocounters
 	test/cpp-test
-	/usr/bin/lcov --directory . --capture --output-file /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/coverage.info
-	/usr/bin/lcov --remove /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/coverage.info 'tests/*' '/usr/*' 'vendor/*' --output-file /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/coverage.info.cleaned
-	/usr/bin/genhtml -o coverage /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/coverage.info.cleaned
-	/usr/bin/cmake -E remove /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/coverage.info /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/coverage.info.cleaned
+	/usr/bin/lcov --directory . --capture --output-file /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/coverage.info
+	/usr/bin/lcov --remove /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/coverage.info 'tests/*' '/usr/*' 'vendor/*' --output-file /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/coverage.info.cleaned
+	/usr/bin/genhtml -o coverage /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/coverage.info.cleaned
+	/usr/bin/cmake -E remove /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/coverage.info /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/coverage.info.cleaned
 
 code_coverage: CMakeFiles/code_coverage
 code_coverage: CMakeFiles/code_coverage.dir/build.make
@@ -78,6 +78,6 @@ CMakeFiles/code_coverage.dir/clean:
 .PHONY : CMakeFiles/code_coverage.dir/clean
 
 CMakeFiles/code_coverage.dir/depend:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/CMakeFiles/code_coverage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/divyansh/Documents/ENPM808X/TDD/808X_TDD /home/divyansh/Documents/ENPM808X/TDD/808X_TDD /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/CMakeFiles/code_coverage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/code_coverage.dir/depend
 

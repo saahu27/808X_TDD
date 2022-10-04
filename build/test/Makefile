@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master
+CMAKE_SOURCE_DIR = /home/divyansh/Documents/ENPM808X/TDD/808X_TDD
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build
+CMAKE_BINARY_DIR = /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/CMakeFiles /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/test/CMakeFiles/progress.marks
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/CMakeFiles 0
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/CMakeFiles /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/test/CMakeFiles/progress.marks
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/cpp-test.dir/rule:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/cpp-test.dir/rule
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/cpp-test.dir/rule
 .PHONY : test/CMakeFiles/cpp-test.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ cpp-test: test/CMakeFiles/cpp-test.dir/rule
 
 # fast build rule for target.
 cpp-test/fast:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/build
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/build
 .PHONY : cpp-test/fast
 
 __/app/TDD.o: __/app/TDD.cpp.o
@@ -177,7 +177,7 @@ __/app/TDD.o: __/app/TDD.cpp.o
 
 # target to build an object file
 __/app/TDD.cpp.o:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/__/app/TDD.cpp.o
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/__/app/TDD.cpp.o
 .PHONY : __/app/TDD.cpp.o
 
 __/app/TDD.i: __/app/TDD.cpp.i
@@ -186,7 +186,7 @@ __/app/TDD.i: __/app/TDD.cpp.i
 
 # target to preprocess a source file
 __/app/TDD.cpp.i:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/__/app/TDD.cpp.i
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/__/app/TDD.cpp.i
 .PHONY : __/app/TDD.cpp.i
 
 __/app/TDD.s: __/app/TDD.cpp.s
@@ -195,7 +195,7 @@ __/app/TDD.s: __/app/TDD.cpp.s
 
 # target to generate assembly for a file
 __/app/TDD.cpp.s:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/__/app/TDD.cpp.s
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/__/app/TDD.cpp.s
 .PHONY : __/app/TDD.cpp.s
 
 main.o: main.cpp.o
@@ -204,7 +204,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/main.cpp.o
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -213,7 +213,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/main.cpp.i
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -222,7 +222,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/main.cpp.s
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 test.o: test.cpp.o
@@ -231,7 +231,7 @@ test.o: test.cpp.o
 
 # target to build an object file
 test.cpp.o:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/test.cpp.o
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/test.cpp.o
 .PHONY : test.cpp.o
 
 test.i: test.cpp.i
@@ -240,7 +240,7 @@ test.i: test.cpp.i
 
 # target to preprocess a source file
 test.cpp.i:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/test.cpp.i
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/test.cpp.i
 .PHONY : test.cpp.i
 
 test.s: test.cpp.s
@@ -249,7 +249,7 @@ test.s: test.cpp.s
 
 # target to generate assembly for a file
 test.cpp.s:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/test.cpp.s
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/test.cpp.s
 .PHONY : test.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

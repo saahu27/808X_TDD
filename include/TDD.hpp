@@ -22,9 +22,7 @@ namespace controller {
     * @brief class PID contains utility functions for developing a PID controller
     */
 class PID {
-
-   public:
-
+ public:
      /**
       * @brief Getter for private variable errorPrevious_
       * @return errorPrevious_
@@ -80,15 +78,13 @@ class PID {
       * @return returns the time step set
       */
      double returndt();
-   
 
-   private:
+ private:
      /**
       * @brief integral constant chosen
       * @param ki_ private variable chosen
       */
-     const double ki_ = 0.1; 
-
+     const double ki_ = 0.1;
      /**
       * @brief proportional constant chosen
       * @param kp_ private variable chosen and set
@@ -99,13 +95,13 @@ class PID {
       * @brief derivative constant chosen
       * @param kd_ private variable chosen and set
       */
-     const double kd_ = 0.001;  
+     const double kd_ = 0.001;
 
      /**
       * @brief timestep chosen
       * @param dt_ private variable chosen
       */
-     const double dt_ = 1;  
+     const double dt_ = 1;
      /**
       * @brief variable to update the previous error
       * @param errorPrevious_
@@ -115,12 +111,12 @@ class PID {
       * @brief variable to update the integral error
       * @param errorIntegral_
       */
-     double errorIntegral_;  
+     double errorIntegral_;
 
      /**
       * @brief tolerance level chosen
       * @param tolerance_ private variable chosen and set
       */
      const double tolerance_ = 0.1;  //
-  };
+};
 }  // namespace controller

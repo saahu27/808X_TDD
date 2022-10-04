@@ -29,7 +29,7 @@ double controller::PID::ComputeVel(double targetVel, double currentVel) {
 }
 
 double controller::PID::RunController(double targetVel, double currentVel) {
-        return currentVel;
+        return 2.0;
 }
 
 double controller::PID::GetterTolerance() {

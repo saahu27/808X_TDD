@@ -1,4 +1,4 @@
-# Install script for directory: /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master
+# Install script for directory: /home/divyansh/Documents/ENPM808X/TDD/808X_TDD
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/app/cmake_install.cmake")
-  include("/home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/test/cmake_install.cmake")
-  include("/home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/vendor/googletest/googletest/cmake_install.cmake")
+  include("/home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/app/cmake_install.cmake")
+  include("/home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/test/cmake_install.cmake")
+  include("/home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/vendor/googletest/googletest/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

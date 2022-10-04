@@ -1,4 +1,4 @@
-# Install script for directory: /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/app
+# Install script for directory: /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

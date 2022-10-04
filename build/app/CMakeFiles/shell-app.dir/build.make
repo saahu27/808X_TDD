@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master
+CMAKE_SOURCE_DIR = /home/divyansh/Documents/ENPM808X/TDD/808X_TDD
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build
+CMAKE_BINARY_DIR = /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/shell-app.dir/depend.make
@@ -59,16 +59,16 @@ include app/CMakeFiles/shell-app.dir/flags.make
 
 app/CMakeFiles/shell-app.dir/TDD.cpp.o: app/CMakeFiles/shell-app.dir/flags.make
 app/CMakeFiles/shell-app.dir/TDD.cpp.o: ../app/TDD.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/shell-app.dir/TDD.cpp.o"
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell-app.dir/TDD.cpp.o -c /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/app/TDD.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/shell-app.dir/TDD.cpp.o"
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/app && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell-app.dir/TDD.cpp.o -c /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/app/TDD.cpp
 
 app/CMakeFiles/shell-app.dir/TDD.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell-app.dir/TDD.cpp.i"
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/app/TDD.cpp > CMakeFiles/shell-app.dir/TDD.cpp.i
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/app && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/app/TDD.cpp > CMakeFiles/shell-app.dir/TDD.cpp.i
 
 app/CMakeFiles/shell-app.dir/TDD.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell-app.dir/TDD.cpp.s"
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/app/TDD.cpp -o CMakeFiles/shell-app.dir/TDD.cpp.s
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/app && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/app/TDD.cpp -o CMakeFiles/shell-app.dir/TDD.cpp.s
 
 app/CMakeFiles/shell-app.dir/TDD.cpp.o.requires:
 
@@ -83,16 +83,16 @@ app/CMakeFiles/shell-app.dir/TDD.cpp.o.provides.build: app/CMakeFiles/shell-app.
 
 app/CMakeFiles/shell-app.dir/main.cpp.o: app/CMakeFiles/shell-app.dir/flags.make
 app/CMakeFiles/shell-app.dir/main.cpp.o: ../app/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object app/CMakeFiles/shell-app.dir/main.cpp.o"
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell-app.dir/main.cpp.o -c /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/app/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object app/CMakeFiles/shell-app.dir/main.cpp.o"
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/app && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell-app.dir/main.cpp.o -c /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/app/main.cpp
 
 app/CMakeFiles/shell-app.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell-app.dir/main.cpp.i"
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/app/main.cpp > CMakeFiles/shell-app.dir/main.cpp.i
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/app && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/app/main.cpp > CMakeFiles/shell-app.dir/main.cpp.i
 
 app/CMakeFiles/shell-app.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell-app.dir/main.cpp.s"
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/app/main.cpp -o CMakeFiles/shell-app.dir/main.cpp.s
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/app && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/app/main.cpp -o CMakeFiles/shell-app.dir/main.cpp.s
 
 app/CMakeFiles/shell-app.dir/main.cpp.o.requires:
 
@@ -117,8 +117,8 @@ app/shell-app: app/CMakeFiles/shell-app.dir/TDD.cpp.o
 app/shell-app: app/CMakeFiles/shell-app.dir/main.cpp.o
 app/shell-app: app/CMakeFiles/shell-app.dir/build.make
 app/shell-app: app/CMakeFiles/shell-app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable shell-app"
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shell-app.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable shell-app"
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shell-app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 app/CMakeFiles/shell-app.dir/build: app/shell-app
@@ -131,10 +131,10 @@ app/CMakeFiles/shell-app.dir/requires: app/CMakeFiles/shell-app.dir/main.cpp.o.r
 .PHONY : app/CMakeFiles/shell-app.dir/requires
 
 app/CMakeFiles/shell-app.dir/clean:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/app && $(CMAKE_COMMAND) -P CMakeFiles/shell-app.dir/cmake_clean.cmake
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/app && $(CMAKE_COMMAND) -P CMakeFiles/shell-app.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/shell-app.dir/clean
 
 app/CMakeFiles/shell-app.dir/depend:
-	cd /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/app /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/app /home/divyansh/Documents/ENPM808X/TDD/cpp-boilerplate-master/build/app/CMakeFiles/shell-app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/divyansh/Documents/ENPM808X/TDD/808X_TDD /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/app /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/app /home/divyansh/Documents/ENPM808X/TDD/808X_TDD/build/app/CMakeFiles/shell-app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/shell-app.dir/depend
 
