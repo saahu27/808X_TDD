@@ -27,6 +27,8 @@ Design : We want to implement a PID control system for an autonomous robot. Our 
 
 Problem Statement: Implement a PID Control Software system in C++ using the above hyperparameters.  
 
+![Alt text](https://github.com/saahu27/808X_TDD/blob/main/UML%20and%20Activity/Activity_diag.png?raw=true "Title")
+
 Steps to build:
 
 	go to the root directory
