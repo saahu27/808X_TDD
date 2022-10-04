@@ -22,6 +22,10 @@ The members of the pair for Part 2 of this repository are :
 
 	Madhu Narra Chittibabu (Driver)
 	Bhargav Soothram Kumar (Navigator)
+	
+Design : We want to implement a PID control system for an autonomous robot. Our input sensor measurement gives feedback values of present velocities for every one second. So we want out control system to run at every one second to save processing time and power. For this rate in change in time we have determined by electrical simulations of real system that our optimal Proportional, Integral and Derivative constants are 0.1, 0.01, 0.001. 
+
+Problem Statement: Implement a PID Control Software system in C++ using the above hyperparameters.  
 
 Steps to build:
 
