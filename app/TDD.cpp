@@ -1,9 +1,4 @@
 /**
- * @file grades.cpp
- * @author Divyansh Agrawal (dagrawa1@umd.edu), Sahruday Patti (sahruday@umd.edu)
- * @brief this file contains all the function definitions 
- * @version 0.1
- * @date 2022-09-29
  * 
  * @copyright Copyright (c) 2022
  * 
@@ -31,6 +26,10 @@ double controller::PID::GetterErrorIntegral() {
 double controller::PID::ComputeVel(double targetVel, double currentVel) {
         std::cout << "target velocity is: " << targetVel;
     return 2.0;
+}
+
+double controller::PID::RunController(double targetVel, double currentVel) {
+        return currentVel;
 }
 
 double controller::PID::returndt() {
