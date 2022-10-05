@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/Bhargav-Soothram/808X_TDD/badge.svg?branch=main)](https://coveralls.io/github/Bhargav-Soothram/808X_TDD?branch=main)                [![Build Status](https://app.travis-ci.com/Bhargav-Soothram/808X_TDD.svg?branch=main)](https://app.travis-ci.com/Bhargav-Soothram/808X_TDD)
+[![Build Status](https://app.travis-ci.com/Bhargav-Soothram/808X_TDD.svg?branch=main)](https://app.travis-ci.com/Bhargav-Soothram/808X_TDD)     [![Coverage Status](https://coveralls.io/repos/github/Bhargav-Soothram/808X_TDD/badge.svg?branch=main)](https://coveralls.io/github/Bhargav-Soothram/808X_TDD?branch=main)                
 # 808X_TDD
 
 ENPM808X - Week 5 - Test Driven Development (TDD)
