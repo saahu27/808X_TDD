@@ -1,3 +1,8 @@
+/**
+ * @copyright Copyright (c) 2022
+ *
+ */
+
 #include <gtest/gtest.h>
 
 int main(int argc, char** argv) {

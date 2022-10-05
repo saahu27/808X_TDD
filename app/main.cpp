@@ -1,20 +1,19 @@
 /**
  * @copyright Copyright (c) 2022
- * 
+ *
  */
 
 #include "../include/TDD.hpp"
 
 int main() {
-controller::PID PIDController;
-std::cout << "Enter the target velocity (double): " << std::endl;
-double targetVel;
-std::cin >> targetVel;
+  controller::PID PIDController;
+  std::cout << "Enter the target velocity: ";
+  double targetVel;
+  std::cin >> targetVel;
 
-std::cout << "Enter the initial velocity (double): " << std::endl;
-double currentVel;
-std::cin >> currentVel;
+  std::cout << "Enter the initial velocity: ";
+  double currentVel;
+  std::cin >> currentVel;
 
-double outputVel;
-outputVel = PIDController.ComputeVel(targetVel, currentVel);
+  PIDController.RunController(targetVel, currentVel);
 }
