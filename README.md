@@ -1,3 +1,4 @@
+[![Coverage Status](https://coveralls.io/repos/github/saahu27/808X_TDD/badge.svg?branch=main)](https://coveralls.io/github/saahu27/808X_TDD?branch=main)
 # 808X_TDD
 
 ENPM808X - Week 5 - Test Driven Development (TDD)
