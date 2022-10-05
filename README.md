@@ -32,7 +32,7 @@ UML Diagram:
 ![Alt text](https://github.com/saahu27/808X_TDD/blob/main/UML%20and%20Activity/UML.PNG?raw=true "Title")
 
 Activity Diagram:
-![Alt text](https://github.com/saahu27/808X_TDD/blob/main/UML%20and%20Activity/Activity_diag.png?raw=true "Title")
+![Alt text](https://github.com/saahu27/808X_TDD/blob/main/UML%20and%20Activity/activity_png.PNG)
 
 Steps to build:
 
