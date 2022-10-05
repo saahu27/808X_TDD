@@ -1,3 +1,0 @@
-Done processing ./app/main.cpp
-Done processing ./app/grades.cpp
-Done processing ./include/grades.hpp
